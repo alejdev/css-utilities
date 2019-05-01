@@ -1,10 +1,5 @@
 # CSS-Utilities
 
-## :memo: Tabla de contenidos <!-- omit in toc -->
-
-- [:package: Instalación](#package-instalación)
-- [:arrow_down: Importar hoja de estilos](#arrow_down-importar-hoja-de-estilos)
-
 ## :package: Instalación
 
 Instalar como paquete de ``npm``:
