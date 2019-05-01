@@ -41,6 +41,12 @@
 .block { display: block !important }
 .flex { display: flex !important }
 
+/* Direction */
+.f-col { flex-direction: column; }
+.f-colR { flex-direction: column; }
+.f-row { flex-direction: row; }
+.f-rowR { flex-direction: row-reverse; }
+
 /* Justify Content */
 .jc-s { justify-content: flex-start !important }
 .jc-c { justify-content: center !important }
