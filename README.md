@@ -13,5 +13,5 @@ npm install https://github.com/alejdev/css-utilities.git
 Las utilidades CSS es conveniente importarlas al final de tus otras hojas de estilo. Añade esta línea al final de  tu ``main.css``:
 
 ```css
-@import "~css-utilities/style.min.css";
+@import "~css-utilities/dist/style.min.css";
 ```
