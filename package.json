@@ -10,11 +10,20 @@
     "type": "git",
     "url": "git+https://github.com/alejdev/css-utilities.git"
   },
-  "keywords": [],
-  "author": "",
+  "keywords": [
+    "css",
+    "utilities"
+  ],
+  "author": "alejdev",
   "license": "MIT",
   "bugs": {
     "url": "https://github.com/alejdev/css-utilities/issues"
   },
-  "homepage": "https://github.com/alejdev/css-utilities#readme"
+  "homepage": "https://github.com/alejdev/css-utilities#readme",
+  "devDependencies": {
+    "gulp": "^4.0.1",
+    "gulp-clean-css": "^4.2.0",
+    "gulp-rename": "^1.4.0",
+    "gulp-sass": "^4.0.2"
+  }
 }
