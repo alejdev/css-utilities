@@ -3,8 +3,9 @@
 
 /* Display */
 .block { display: block !important }
+.in-block { display: inline-block !important }
 .flex { display: flex !important }
-.flex { display: flex !important }
+.in-flex { display: inline-flex !important }
 
 /* Direction */
 .f-col { flex-direction: column; }
