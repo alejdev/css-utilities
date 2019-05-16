@@ -6,6 +6,7 @@
 .in-block { display: inline-block !important }
 .flex { display: flex !important }
 .in-flex { display: inline-flex !important }
+.spacer { flex: 1 1 auto !important }
 
 /* Direction */
 .f-col { flex-direction: column; }
