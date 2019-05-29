@@ -4,7 +4,7 @@
 // display
 .block { display: block !important; }
 .in-block { display: inline-block !important; }
-.flex { display: flex !important; }
+.f-lex { display: flex !important; }
 .in-flex { display: inline-flex !important; }
 .spacer { flex: 1 1 auto !important; }
 
@@ -27,15 +27,15 @@
 .ai-e { align-items: flex-end !important; }
 
 // widths: require flex father content
-.f1 { flex-basis: calc((100% / 12) * 1) !important; }
-.f2 { flex-basis: calc((100% / 12) * 2) !important; }
-.f3 { flex-basis: calc((100% / 12) * 3) !important; }
-.f4 { flex-basis: calc((100% / 12) * 4) !important; }
-.f5 { flex-basis: calc((100% / 12) * 5) !important; }
-.f6 { flex-basis: calc((100% / 12) * 6) !important; }
-.f7 { flex-basis: calc((100% / 12) * 7) !important; }
-.f8 { flex-basis: calc((100% / 12) * 8) !important; }
-.f9 { flex-basis: calc((100% / 12) * 9) !important; }
-.f10 { flex-basis: calc((100% / 12) * 10) !important; }
-.f11 { flex-basis: calc((100% / 12) * 11) !important; }
-.f12 { flex-basis: calc((100% / 12) * 12) !important; }
+.f-1 { flex-basis: calc((100% / 12) * 1) !important; }
+.f-2 { flex-basis: calc((100% / 12) * 2) !important; }
+.f-3 { flex-basis: calc((100% / 12) * 3) !important; }
+.f-4 { flex-basis: calc((100% / 12) * 4) !important; }
+.f-5 { flex-basis: calc((100% / 12) * 5) !important; }
+.f-6 { flex-basis: calc((100% / 12) * 6) !important; }
+.f-7 { flex-basis: calc((100% / 12) * 7) !important; }
+.f-8 { flex-basis: calc((100% / 12) * 8) !important; }
+.f-9 { flex-basis: calc((100% / 12) * 9) !important; }
+.f-10 { flex-basis: calc((100% / 12) * 10) !important; }
+.f-11 { flex-basis: calc((100% / 12) * 11) !important; }
+.f-12 { flex-basis: calc((100% / 12) * 12) !important; }

@@ -74,7 +74,7 @@
 .in-block {
   display: inline-block !important; }
 
-.flex {
+.f-lex {
   display: flex !important; }
 
 .in-flex {
@@ -119,40 +119,40 @@
 .ai-e {
   align-items: flex-end !important; }
 
-.f1 {
+.f-1 {
   flex-basis: calc((100% / 12) * 1) !important; }
 
-.f2 {
+.f-2 {
   flex-basis: calc((100% / 12) * 2) !important; }
 
-.f3 {
+.f-3 {
   flex-basis: calc((100% / 12) * 3) !important; }
 
-.f4 {
+.f-4 {
   flex-basis: calc((100% / 12) * 4) !important; }
 
-.f5 {
+.f-5 {
   flex-basis: calc((100% / 12) * 5) !important; }
 
-.f6 {
+.f-6 {
   flex-basis: calc((100% / 12) * 6) !important; }
 
-.f7 {
+.f-7 {
   flex-basis: calc((100% / 12) * 7) !important; }
 
-.f8 {
+.f-8 {
   flex-basis: calc((100% / 12) * 8) !important; }
 
-.f9 {
+.f-9 {
   flex-basis: calc((100% / 12) * 9) !important; }
 
-.f10 {
+.f-10 {
   flex-basis: calc((100% / 12) * 10) !important; }
 
-.f11 {
+.f-11 {
   flex-basis: calc((100% / 12) * 11) !important; }
 
-.f12 {
+.f-12 {
   flex-basis: calc((100% / 12) * 12) !important; }
 
 .m-0 {
