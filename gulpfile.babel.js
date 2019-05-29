@@ -8,17 +8,26 @@ const path = {
 	scss: './scss/style.scss',
 	allScss: './scss/**/*.scss',
 	dist: './dist',
-	fileName: 'style.min.css',
+	fileName: 'style.css',
+	fileMinName: 'style.min.css',
 	configLint: './.sass-lint.yml'
+}
+
+/**
+ * Compile SCSS to .css or min.css
+ * @param {boolean} min Minify CSS?
+ */
+function compileSass(min) {
+	let sc = src(path.scss).pipe(sass().on('error', logError))
+	return min ?
+		sc.pipe(cleanCSS()).pipe(rename(path.fileMinName)).pipe(dest(path.dist)) :
+		sc.pipe(rename(path.fileName)).pipe(dest(path.dist))
 }
 
 // Build dist
 task('build', () => {
-	return src(path.scss)
-		.pipe(sass().on('error', logError))
-		.pipe(cleanCSS())
-		.pipe(rename(path.fileName))
-		.pipe(dest(path.dist))
+	compileSass()
+	return compileSass(true)
 })
 
 // Lint
