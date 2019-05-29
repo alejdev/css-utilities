@@ -1,41 +1,41 @@
-/* Display
-----------------------*/
+// Display
 
-/* Display */
-.block { display: block !important }
-.in-block { display: inline-block !important }
-.flex { display: flex !important }
-.in-flex { display: inline-flex !important }
-.spacer { flex: 1 1 auto !important }
 
-/* Direction */
-.f-col { flex-direction: column; }
-.f-colR { flex-direction: column; }
-.f-row { flex-direction: row; }
-.f-rowR { flex-direction: row-reverse; }
+// display
+.block { display: block !important; }
+.in-block { display: inline-block !important; }
+.flex { display: flex !important; }
+.in-flex { display: inline-flex !important; }
+.spacer { flex: 1 1 auto !important; }
 
-/* Justify Content */
-.jc-s { justify-content: flex-start !important }
-.jc-c { justify-content: center !important }
-.jc-e { justify-content: flex-end !important }
-.jc-sb { justify-content: space-between !important }
-.jc-sa { justify-content: space-around !important }
+// direction
+.f-col { flex-direction: column !important; }
+.f-col-r { flex-direction: column !important; }
+.f-row { flex-direction: row !important; }
+.f-row-r { flex-direction: row-reverse !important; }
 
-/* Align Items */
-.ai-s { align-items: flex-start !important }
-.ai-c { align-items: center !important }
-.ai-e { align-items: flex-end !important }
+// justify-content
+.jc-s { justify-content: flex-start !important; }
+.jc-c { justify-content: center !important; }
+.jc-e { justify-content: flex-end !important; }
+.jc-sb { justify-content: space-between !important; }
+.jc-sa { justify-content: space-around !important; }
 
-// Widths
-.f1 { flex-basis: calc((100% / 12) * 1) !important }
-.f2 { flex-basis: calc((100% / 12) * 2) !important }
-.f3 { flex-basis: calc((100% / 12) * 3) !important }
-.f4 { flex-basis: calc((100% / 12) * 4) !important }
-.f5 { flex-basis: calc((100% / 12) * 5) !important }
-.f6 { flex-basis: calc((100% / 12) * 6) !important }
-.f7 { flex-basis: calc((100% / 12) * 7) !important }
-.f8 { flex-basis: calc((100% / 12) * 8) !important }
-.f9 { flex-basis: calc((100% / 12) * 9) !important }
-.f10 { flex-basis: calc((100% / 12) * 10) !important }
-.f11 { flex-basis: calc((100% / 12) * 11) !important }
-.f12 { flex-basis: calc((100% / 12) * 12) !important }
+// align-items
+.ai-s { align-items: flex-start !important; }
+.ai-c { align-items: center !important; }
+.ai-e { align-items: flex-end !important; }
+
+// widths: require flex father content
+.f1 { flex-basis: calc((100% / 12) * 1) !important; }
+.f2 { flex-basis: calc((100% / 12) * 2) !important; }
+.f3 { flex-basis: calc((100% / 12) * 3) !important; }
+.f4 { flex-basis: calc((100% / 12) * 4) !important; }
+.f5 { flex-basis: calc((100% / 12) * 5) !important; }
+.f6 { flex-basis: calc((100% / 12) * 6) !important; }
+.f7 { flex-basis: calc((100% / 12) * 7) !important; }
+.f8 { flex-basis: calc((100% / 12) * 8) !important; }
+.f9 { flex-basis: calc((100% / 12) * 9) !important; }
+.f10 { flex-basis: calc((100% / 12) * 10) !important; }
+.f11 { flex-basis: calc((100% / 12) * 11) !important; }
+.f12 { flex-basis: calc((100% / 12) * 12) !important; }

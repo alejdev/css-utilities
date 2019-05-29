@@ -3,9 +3,13 @@
   "version": "1.0.0",
   "description": "",
   "main": "style.css",
+  "author": "alejdev",
+  "license": "MIT",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "deploy": "gulp build && git add . && git commit -- && git push"
+    "dev": "gulp",
+    "deploy": "npm run lint && gulp build && git add . && git commit -- && git push",
+    "lint": "sass-lint -c ./.sass-lint.yml scss/**/*.scss -v -q"
   },
   "repository": {
     "type": "git",
@@ -15,16 +19,19 @@
     "css",
     "utilities"
   ],
-  "author": "alejdev",
-  "license": "MIT",
   "bugs": {
     "url": "https://github.com/alejdev/css-utilities/issues"
   },
   "homepage": "https://github.com/alejdev/css-utilities#readme",
   "devDependencies": {
-    "gulp": "^4.0.1",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/register": "^7.4.4",
+    "gulp": "^4.0.2",
+    "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.2.0",
     "gulp-rename": "^1.4.0",
-    "gulp-sass": "^4.0.2"
+    "gulp-sass": "^4.0.2",
+    "gulp-sass-lint": "^1.4.0"
   }
 }
