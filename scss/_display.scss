@@ -14,6 +14,11 @@
 .f-row { flex-direction: row !important; }
 .f-row-r { flex-direction: row-reverse !important; }
 
+// flex-wrap
+.f-nowrap { flex-wrap: nowrap !important; }
+.f-wrap { flex-wrap: wrap !important; }
+.f-wrap-r { flex-wrap: wrap-reverse !important; }
+
 // justify-content
 .jc-s { justify-content: flex-start !important; }
 .jc-c { justify-content: center !important; }

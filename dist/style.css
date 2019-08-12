@@ -95,6 +95,15 @@
 .f-row-r {
   flex-direction: row-reverse !important; }
 
+.f-nowrap {
+  flex-wrap: nowrap !important; }
+
+.f-wrap {
+  flex-wrap: wrap !important; }
+
+.f-wrap-r {
+  flex-wrap: wrap-reverse !important; }
+
 .jc-s {
   justify-content: flex-start !important; }
 
