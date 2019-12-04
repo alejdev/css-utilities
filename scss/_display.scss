@@ -8,6 +8,11 @@
 .in-flex { display: inline-flex !important; }
 .spacer { flex: 1 1 auto !important; }
 
+// position
+.relative { position: relative !important; }
+.absolute { position: absolute !important; }
+.fixed { position: fixed !important; }
+
 // direction
 .f-col { flex-direction: column !important; }
 .f-col-r { flex-direction: column !important; }
