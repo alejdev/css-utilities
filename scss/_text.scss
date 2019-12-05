@@ -26,3 +26,10 @@
 .txt-left { text-align: left !important; }
 .txt-center { text-align: center !important; }
 .txt-right { text-align: right !important; }
+
+// Others
+.truncate {
+	white-space: nowrap;
+	overflow: hidden;
+	text-overflow: ellipsis;
+}
