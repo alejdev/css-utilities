@@ -1,8 +1,7 @@
 // Truncate Multiline
 @mixin truncate-ml($line) {
 	display: -webkit-box !important;
-	white-space: initial;
 	overflow: hidden;
-	-webkit-box-orient: vertical;
 	-webkit-line-clamp: $line;
+	-webkit-box-orient: vertical;
 }
