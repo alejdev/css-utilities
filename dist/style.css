@@ -71,54 +71,63 @@
   display: -webkit-box !important;
   overflow: hidden;
   -webkit-line-clamp: 2;
+  /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical; }
 
 .truncate-3 {
   display: -webkit-box !important;
   overflow: hidden;
   -webkit-line-clamp: 3;
+  /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical; }
 
 .truncate-4 {
   display: -webkit-box !important;
   overflow: hidden;
   -webkit-line-clamp: 4;
+  /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical; }
 
 .truncate-5 {
   display: -webkit-box !important;
   overflow: hidden;
   -webkit-line-clamp: 5;
+  /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical; }
 
 .truncate-6 {
   display: -webkit-box !important;
   overflow: hidden;
   -webkit-line-clamp: 6;
+  /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical; }
 
 .truncate-7 {
   display: -webkit-box !important;
   overflow: hidden;
   -webkit-line-clamp: 7;
+  /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical; }
 
 .truncate-8 {
   display: -webkit-box !important;
   overflow: hidden;
   -webkit-line-clamp: 8;
+  /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical; }
 
 .truncate-9 {
   display: -webkit-box !important;
   overflow: hidden;
   -webkit-line-clamp: 9;
+  /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical; }
 
 .truncate-10 {
   display: -webkit-box !important;
   overflow: hidden;
   -webkit-line-clamp: 10;
+  /*! autoprefixer: ignore next */
   -webkit-box-orient: vertical; }
 
 .border-0 {
