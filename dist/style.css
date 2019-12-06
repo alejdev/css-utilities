@@ -67,6 +67,30 @@
   overflow: hidden;
   text-overflow: ellipsis; }
 
+.truncate- {
+  display: -webkit-box !important;
+  white-space: initial;
+  overflow: hidden;
+  -webkit-box-orient: vertical; }
+  .truncate-2 {
+    -webkit-line-clamp: 2; }
+  .truncate-3 {
+    -webkit-line-clamp: 3; }
+  .truncate-4 {
+    -webkit-line-clamp: 4; }
+  .truncate-5 {
+    -webkit-line-clamp: 5; }
+  .truncate-6 {
+    -webkit-line-clamp: 6; }
+  .truncate-7 {
+    -webkit-line-clamp: 7; }
+  .truncate-8 {
+    -webkit-line-clamp: 8; }
+  .truncate-9 {
+    -webkit-line-clamp: 9; }
+  .truncate-10 {
+    -webkit-line-clamp: 10; }
+
 .border-0 {
   border: 0 !important; }
 
