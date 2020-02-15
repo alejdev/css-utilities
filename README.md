@@ -2,10 +2,10 @@
 
 Clases útiles CSS que para hacer más rápida y sencilla la maquetación y el desarrollo de cualquier proyecto web.
 
-- [:package: Instalación](#package-instalación)
-- [:arrow_down: Añade la hoja de estilos](#arrow_down-añade-la-hoja-de-estilos)
+- [Instalación](#instalación)
+- [Añade la hoja de estilos](#añade-la-hoja-de-estilos)
 
-## :package: Instalación
+## Instalación
 
 Instalar como paquete de ``npm``:
 
@@ -13,7 +13,7 @@ Instalar como paquete de ``npm``:
 npm install --save @alejdev/css-utilities
 ```
 
-## :arrow_down: Añade la hoja de estilos
+## Añade la hoja de estilos
 
 Importa el archivo minificado CSS al final de tu hoja de estilos
 
@@ -28,7 +28,7 @@ O añade la siguiente línea al final de la etiqueta `head` de tu `hmtl`
 <html>
 	<head>
 		...
-		<link rel="stylesheet" href="https://unpkg.com/@alejdev/css-utilities@0.1.1/dist/style.min.css">
+		<link rel="stylesheet" href="https://unpkg.com/@alejdev/css-utilities@0.1.2/dist/style.min.css">
 	</head>
 	...
 <html>
