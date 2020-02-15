@@ -1,6 +1,6 @@
 {
   "name": "@alejdev/css-utilities",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "Utilities for CSS",
   "main": "dist/style.min.css",
   "dependencies": {
@@ -27,7 +27,7 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp",
     "build": "gulp build",
-    "deploy": "npm run lint && npm run build && git add . && git commit -- && git push && npm publish",
+    "deploy": "npm run lint && npm run build && npm publish && git add . && git commit -- && git push",
     "lint": "sass-lint -c ./.sass-lint.yml scss/**/*.scss -v -q"
   },
   "repository": {

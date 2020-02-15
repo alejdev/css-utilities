@@ -28,7 +28,7 @@ O añade la siguiente línea al final de la etiqueta `head` de tu `hmtl`
 <html>
 	<head>
 		...
-		<link rel="stylesheet" href="https://unpkg.com/@alejdev/css-utilities@0.1.0/dist/style.min.css">
+		<link rel="stylesheet" href="https://unpkg.com/@alejdev/css-utilities@0.1.1/dist/style.min.css">
 	</head>
 	...
 <html>
