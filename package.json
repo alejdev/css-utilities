@@ -13,9 +13,9 @@
     "sass-lint": "^1.13.1"
   },
   "devDependencies": {
-    "@babel/core": "^7.7.5",
-    "@babel/preset-env": "^7.7.6",
-    "@babel/register": "^7.7.4",
+    "@babel/core": "^7.8.4",
+    "@babel/preset-env": "^7.8.4",
+    "@babel/register": "^7.8.3",
     "gulp": "^4.0.2",
     "gulp-babel": "^8.0.0",
     "gulp-clean-css": "^4.2.0",
@@ -26,7 +26,8 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "dev": "gulp",
-    "deploy": "npm run lint && gulp build && git add . && git commit -- && git push",
+    "build": "gulp build",
+    "deploy": "npm run lint && npm run build && git add . && git commit -- && git push",
     "lint": "sass-lint -c ./.sass-lint.yml scss/**/*.scss -v -q"
   },
   "repository": {

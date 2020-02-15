@@ -1,5 +1,5 @@
 /*!
- * CSS-Utilities v1.0.0 (https://github.com/alejdev/css-utilities/blob/master/README.md)
+ * CSS-Utilities (https://github.com/alejdev/css-utilities/blob/master/README.md)
  * Licensed under MIT (https://github.com/alejdev/css-utilities/blob/master/LICENSE)
  */
 .txt-thin {
@@ -207,42 +207,6 @@
 
 .ai-e {
   align-items: flex-end !important; }
-
-.f-1 {
-  flex-basis: calc((100% / 12) * 1) !important; }
-
-.f-2 {
-  flex-basis: calc((100% / 12) * 2) !important; }
-
-.f-3 {
-  flex-basis: calc((100% / 12) * 3) !important; }
-
-.f-4 {
-  flex-basis: calc((100% / 12) * 4) !important; }
-
-.f-5 {
-  flex-basis: calc((100% / 12) * 5) !important; }
-
-.f-6 {
-  flex-basis: calc((100% / 12) * 6) !important; }
-
-.f-7 {
-  flex-basis: calc((100% / 12) * 7) !important; }
-
-.f-8 {
-  flex-basis: calc((100% / 12) * 8) !important; }
-
-.f-9 {
-  flex-basis: calc((100% / 12) * 9) !important; }
-
-.f-10 {
-  flex-basis: calc((100% / 12) * 10) !important; }
-
-.f-11 {
-  flex-basis: calc((100% / 12) * 11) !important; }
-
-.f-12 {
-  flex-basis: calc((100% / 12) * 12) !important; }
 
 .m-0 {
   margin: 0 !important; }
