@@ -5,7 +5,7 @@
 Instalar como paquete de ``npm``:
 
 ```sh
-npm install @alejdev/css-utilities
+npm install --save @alejdev/css-utilities
 ```
 
 ## :arrow_down: Importar hoja de estilos
